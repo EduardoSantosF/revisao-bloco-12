@@ -8,7 +8,6 @@ import '../css/Header.css';
 
 class Header extends Component {
   render() {
-    const { searchInput, handleSearch } = this.props;
     return (
       <header>
         <div>
@@ -18,8 +17,6 @@ class Header extends Component {
         <input
           type="text"
           placeholder="Buscar produtos, marcas e muito mais…"
-          onChange={handleSearch}
-          value={searchInput}
         />
         <button type="button">
           <img src={searchIcon} alt="search icon" />

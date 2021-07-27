@@ -1,0 +1,45 @@
+.new-product-form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.new-product-form > button {
+  border-radius: 2px;
+  padding: 5px 10px;
+  font-size: 1em;
+  color: rgb(66, 66, 66);
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  border: 0 rgba(0,0,0,.2);
+}
+
+.new-product-form > button:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.589);
+}
+
+.new-product-form > button:active {
+  box-shadow: 0 1px 2px 0 #45b38167;
+}
+
+.new-product-form > label {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-product-form input {
+  height: 30px;
+  width: 200px;
+  padding: 9px 15px;
+  margin: 10px 0;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  border-radius: 2px;
+  border: 0 rgba(0,0,0,.2);
+  color: #333;
+  font-size: 16px;
+  box-sizing: border-box;
+}
